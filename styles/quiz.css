@@ -1,0 +1,42 @@
+.quiz-form{
+    background-color: #e9e9e9;
+    padding: 12px;
+    width: 400px;
+}
+
+input,textarea{
+    display: block;
+    width: 100%;
+    padding: 6px 0px;
+    margin-top: 5px;
+}
+
+select{
+    min-height: 55px;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+fieldset{
+    margin-bottom: 15px;
+    border: none;
+}
+
+.code-block{
+    display: block;
+    margin: 10px 5px 15px;
+    background-color: rgb(16, 18, 21);
+    padding: 12px;
+    color: #e9e9e9;
+}
+
+.submit-button{
+    background-color: darkblue;
+    border: 1px darkblue solid;
+    display: block;
+    padding: 12px;
+    color: #e9e9e9;
+    width: 100%;
+    border-radius: 8px;
+}
