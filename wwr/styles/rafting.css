@@ -1,81 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
-
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700 &display=swap');:root {
     /* change the values below to your colors from your palette */
-    --primary-color: #3498db   ;
-    --secondary-color: #2c3e50 ;
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
     --accent1-color: #1abc9c;
     --accent2-color: #e74c3c;
-  
+
     /* change the values below to your chosen font(s) */
     --heading-font: 'Poppins', sans-serif;
     --paragraph-font: 'Poppins', sans-serif;
-  
-  
+
+
     --nav-background-color: #3498db;
     --nav-link-color: white;
     --nav-hover-link-color: rgb(236, 236, 236);
     --nav-hover-background-color: #2c3e50;
-  }
+}
 
-  body {
+
+body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
     font-size: 18px;
     text-align: center;
-  }
-  
-  
-  h1, h2, h3, h4, h5, h6 {
+}
+
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}
+header img {
+    max-width: 120px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+}
+header nav a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-right: 1px solid #bbb;
+    text-decoration: none;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-  }
+}
 
-  .hero{
+.hero {
     position: relative;
-  }
+}
 
-  .hero h1, .hero article{
+.hero h1,
+.hero article {
     position: absolute;
-  }
+}
 
-  .hero h1{
-    top: 0px;
+.hero h1 {
+    top: 0;
     width: 100%;
-text-align: center;
-background-color: rgba(0, 0, 0, .5);
-color: #fff;
-padding: 20px 0px;
-  }
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 0;
+}
 
-  .hero article{
+.hero article {
     display: block;
     width: 90%;
     max-width: 100%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, .5);
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     top: 100px;
-    padding: 20px 0px;
     margin: 20px auto;
-  }
+}
 
-  .hero > img{
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 
-  .hero article img{
+.hero article img {
     float: right;
-  }
+}
 
-  .rafting-adventure img{
-    max-width: 100%;
-  }
+.rafting-adventure div{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px; /* Adjust the value to change the spacing */
+}
 
-  footer {
+.rafting-adventure img {
+    width: 100%;
+}
+
+footer {
     text-align: center;
     padding: 10px;
 }
