@@ -35,9 +35,11 @@ header img {
 }
 
 header nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: red;
+    /* display: flex;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 15px;
 }
 header nav a {
     display: block;
@@ -102,13 +104,24 @@ h6 {
     float: right;
 }
 
-.rafting-adventure div{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px; /* Adjust the value to change the spacing */
+.rafting-adventure div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; /* Adjust the value to change the spacing */
 }
 
 .rafting-adventure img {
+    width: 100%;
+}
+
+.history-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adjust the value to change the spacing */
+}
+
+.history-container img,
+.history-container p {
     width: 100%;
 }
 
