@@ -40,19 +40,25 @@ header nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 15px;
+    background-color: var(--nav-background-color);
 }
 header nav a {
     display: block;
     text-align: center;
     padding: 12px;
-    border-right: 1px solid #bbb;
     text-decoration: none;
+    color: #fff;
+}
+
+header nav a:hover{
+  background-color: var(--nav-hover-background-color);
 }
 
 footer {
     display: grid;
     grid-template-columns: 1fr 200px;
     align-items: center;
+    background-color: var(--secondary-color);
 }
 
 h1,
@@ -128,6 +134,7 @@ h6 {
 footer {
     text-align: center;
     padding: 10px;
+    color: #fff;
 }
 
 footer p {
