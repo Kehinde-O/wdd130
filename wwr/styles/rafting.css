@@ -242,3 +242,7 @@ fieldset{
     border-radius: 15px;
     width: 100%;
 }
+
+.contact-heading{
+    color: #fff !important;
+}
