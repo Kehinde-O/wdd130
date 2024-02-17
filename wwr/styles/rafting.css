@@ -204,6 +204,7 @@ footer img {
 
 .map iframe{
     width: 100%;
+    border: none;
 }
 
 .contact-form-section{
