@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700 &display=swap');:root {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');:root {
     /* change the values below to your colors from your palette */
     --primary-color: #3498db;
     --secondary-color: #2c3e50;
@@ -200,6 +200,10 @@ footer img {
 
 .map{
     margin-top: 15px;
+}
+
+.map iframe{
+    width: 100%;
 }
 
 .contact-form-section{
