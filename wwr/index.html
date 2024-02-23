@@ -5,53 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/rafting.css">
     <title>RaftRush Explorations | Home</title>
 </head>
 
 <body>
     <div id="content">
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="#">Page 2</a>
-                <a href="site-plan-rafting.html">Site Plan</a>
-                <a href="contactus.html">Contact Us</a>
+        <header> 
+            <img src="images/logo.png" alt="Rafting Company Logo">
+            <nav> 
+                <a href="index.html"> Home</a> 
+                <a href="about.html"> About Us</a> 
+                <a href="trips.html"> Trips</a> 
+                <a href="contact.html"> Contact</a> 
             </nav>
         </header>
         <div id="hero">
             <div id="hero-box">
                 <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">Have An Adventure</h1>
-                <h4>Make Memories with Dry Oar </h4>
-                <div class='button-box'>
-                    <a class='book' href="contactus.html">Book Now</a>
-                </div>
+            <div class="home-newsletter">
+                <h2>Join Our Newsletter</h2>
+                <p>Stay in the loop with our latest rafting adventures, exclusive deals, and insider tips! Join our newsletter today for exciting updates delivered straight to your inbox.</p>
+                <form>
+                    <fieldset>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="Email Address">Email Address</label>
+                        <input type="email" id="name">
+                    </fieldset>
+                    <button type="submit" class="submit-button-quick">
+                        Join Now
+                    </button>
+                </form>
+            </div>
+            <section class="call-to-action">
+                <h1 class="home-title">Ready to serve you best</h1>
+                <p>Ready to take your rafting experience to the next level? Our dedicated team is poised and ready to serve you with the best adventure yet! Whether you're a seasoned rafter or a first-time thrill-seeker, we're here to make every moment unforgettable. 
+                    Book your adventure today and let us show you what white water excitement is all about!</p>
+                    <a class='book' class="cta-home-button" href="contactus.html">Book Now</a>
             </section>
         </div>
-        <main class="home-grid">
-            <section class="rivers-card">
-                <img class="card-img" src="images/rivers.jpg" alt="river in forest">
-                <img class="icon" src="images/river_icon.png" alt="river icon">
-                <h2>Rivers</h2>
-            </section>
-            <section class="camping-card">
-                <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
-                <img class="icon" src="images/fire_icon.png" alt="fire icon">
-                <h2>Camping</h2>
-            </section>
-            <section class="rapids-card">
-                <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-                <img class="icon" src="images/oars.png" alt="oars icon">
-                <h2>Rapids</h2>
-            </section>
-            <div id="background"></div>
-            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+            
+
+        <div class="trips-list">
+            <div class="single-trip">
+                <img src="images/bighorn-laugh.jpg">
+                <h2>BIG HORN CANYON</h2>
+                <p>Experience the thrill of Big Horn Canyon! Join our guided rafting trip through breathtaking canyons,
+                     tackle exhilarating rapids, and soak in stunning views. Book now for an unforgettable adventure!</p>
+                <a href="contact.html">Book Now</a>
+            </div>
+
+            <div class="single-trip">
+                <img src="images/royal-george.webp">
+                <h2>ROYAL GEORGE</h2>
+                <p>Discover the majesty of Royal George! Embark on a thrilling rafting adventure through this iconic canyon,
+                     where towering walls and rushing rapids create an unforgettable journey. With expert guides leading the way.</p>
+                <a href="contact.html">Book Now</a>
+            </div>
+
+            <div class="single-trip">
+                <img src="images/scenic-float.webp">
+                <h2>SCENIC FLOAT</h2>
+                <p>Unwind amidst scenic beauty on our tranquil Scenic Float trip! Drift along gentle currents, surrounded by picturesque
+                     landscapes and wildlife sightings. Perfect for all ages and experience levels, this leisurely journey.</p>
+                <a href="contact.html">Book Now</a>
+            </div>
+        </div>
+
+
             <section class="msg">
                 <h2>More Than Just The Thrill</h2>
                 <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than
@@ -61,20 +86,11 @@
             </section>
         </main>
         <footer>
-            <p>RaftRush Explorations &copy; 2023 - Kehinde Omotoso</p>
-            <p><a href="site-plan-rafting.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <div class="social">
-                <a target="_blank" href="https://facebook.com">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a target="_blank" href="https://twitter.com">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a target="_blank" href="https://instagram.com">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
+            <p>&copy;
+                2024 🌴 RaftRush Explorations 🌴 Kehinde John Omotoso 🌴 WDD 130 &nbsp;<a class="wireframe-link-trips" href="images/Wireframe - Trips - WDD130.png">Wireframe</a></p>
+            <nav class="sociallinks"> <a href="https://facebook.com"> <img src="images/facebook.svg" alt="Facebook"> </a> <a
+                    href="https://twitter.com"> <img src="images/twitter.svg" alt="Twitter"> </a> <a
+                    href="https://instagram.com"> <img src="images/instagram.svg" alt="Instagram"> </a> </nav>
         </footer>
     </div>
 </body>
